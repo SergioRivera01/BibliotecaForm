@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c0f86491f150475db7089bec7d8b09de" Name="Diagram1">
+        <EntityTypeShape EntityType="BibliotecaModel.Categoria" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="BibliotecaModel.Libro" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="BibliotecaModel.LibroUnidades" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="BibliotecaModel.Ubicacion" Width="1.5" PointX="3" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="BibliotecaModel.Venta" Width="1.5" PointX="7.5" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="BibliotecaModel.FK_Libro_Categoria" ManuallyRouted="false" />
+        <AssociationConnector Association="BibliotecaModel.FK_Id_Libro" ManuallyRouted="false" />
+        <AssociationConnector Association="BibliotecaModel.FK__Venta__idLibroUn__33D4B598" ManuallyRouted="false" />
+        <AssociationConnector Association="BibliotecaModel.FK_Id_Ubicacion" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
